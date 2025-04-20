@@ -33,6 +33,9 @@
 - `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 직접 수정
 - Companion과 TX 기기 양쪽에서 한국어 UI 구현 완료 예정
 
+## 🛠 나의 오픈소스 기여
+- 🧩 [Secret Garden KR 테마 (EdgeTX)](https://github.com/EdgeTX/themes/pull/73) – 창경궁 비원의 고요한 아름다움에서 영감을 받아 제작한 테마입니다.
+
 ---
 
 ## 🌏 기타 주요 경력
