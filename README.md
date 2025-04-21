@@ -33,7 +33,7 @@
 - Companion 및 실기기에서 한국어 UI 완성 목표
 
 ### 🎨 [Secret Garden KR 테마](https://github.com/EdgeTX/themes/pull/73) – 감성 테마 디자인
-> 창경궁의 고요한 분위기와 파스텔 컬러에서 영감을 받은 EdgeTX 테마
+> 창경궁 비원의 고요한 아름다움에서 영감을 받은 EdgeTX 테마
 
 ---
 
