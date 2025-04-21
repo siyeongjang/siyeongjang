@@ -19,18 +19,18 @@
 
 ## 🔥 주요 프로젝트
 
+### 🖥️ EdgeTX 한글 펌웨어 – 🛠 공식 머지 대기 중
+> TX16S 조종기에서 완전한 한국어 렌더링 지원
+- NanumBarunpenR/B 폰트를 경량화하여 직접 통합
+- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 전체 폰트 처리 파이프라인 수정
+- Companion 및 실기기에서 한국어 UI 완성 목표
+
 ### 🎙️ [EdgeTX 한국어 음성팩 PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ 공식 머지 완료
 > EdgeTX v2.9 SD 카드에 포함될 예정인 공식 한국어 음성팩입니다.
 - Google Cloud TTS로 생성한 자연스러운 한국어 음성 파일 적용
 - `sounds/ko`, `ko-KR.csv`, `ko-KR_scripts.csv` 포함
 - 기존 구조와 동일하게 유지보수 가능하도록 설계
 - 자동 검증 스크립트(`build-checks.py`) 통과 및 문서화 완료
-
-### 🖥️ EdgeTX 한글 펌웨어 – 🛠 공식 머지 대기 중
-> TX16S 조종기에서 완전한 한국어 렌더링 지원
-- NanumBarunpenR/B 폰트를 경량화하여 직접 통합
-- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 전체 폰트 처리 파이프라인 수정
-- Companion 및 실기기에서 한국어 UI 완성 목표
 
 ### 🎨 [Secret Garden KR 테마](https://github.com/EdgeTX/themes/pull/73) – 감성 테마 디자인
 > 창경궁 비원의 고요한 아름다움에서 영감을 받은 EdgeTX 테마
