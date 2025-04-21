@@ -18,13 +18,12 @@
 ---
 
 ## 🔥 주요 프로젝트
-
-### 🎙️ [EdgeTX 한글 음성팩 PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143)
-> 한국어 사용자들을 위한 공식 EdgeTX 사운드팩 기여
-
-- Google Cloud TTS를 활용하여 자연스러운 한국어 음성 생성
-- `SOUNDS/ko` 폴더와 `voices/ko-KR.csv`, `ko-KR_scripts.csv` 포함
-- [README.md 업데이트](https://github.com/EdgeTX/edgetx-sdcard-sounds/blob/main/README.md)로 사용법 및 기여 정보 명시
+### 🎉 [EdgeTX 한글 음성팩 PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – **공식 머지 완료**
+> EdgeTX v2.9 SD카드에 포함될 예정인 한국어 음성팩
+- Google Cloud TTS로 생성한 자연스러운 한국어 음성 파일
+- `sounds/ko` 경로 및 `ko-KR.csv`, `ko-KR_scripts.csv` 포함
+- 기존 영어 음성과 동일한 구조로 구성하여 유지보수성 확보
+- `build-checks.py` 테스트 통과 및 README 기여 가이드 반영
 
 ### 🛠️ EdgeTX 한글 펌웨어 (작업 중)
 > 실제 기기(TX16S) 화면에 완전한 한국어 폰트 렌더링 지원
