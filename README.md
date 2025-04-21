@@ -26,7 +26,7 @@
 - 기존 구조와 동일하게 유지보수 가능하도록 설계
 - 자동 검증 스크립트(`build-checks.py`) 통과 및 문서화 완료
 
-### 🖥️ EdgeTX 한글 펌웨어 – 🛠 업로드 대기 중
+### 🖥️ EdgeTX 한글 펌웨어 – 🛠 공식 머지 대기 중
 > TX16S 조종기에서 완전한 한국어 렌더링 지원
 - NanumBarunpenR/B 폰트를 경량화하여 직접 통합
 - `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 전체 폰트 처리 파이프라인 수정
