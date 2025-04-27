@@ -1,3 +1,8 @@
+<p align="center">
+  <h1 align="center">Embedded Systems</h1>
+  <h3 align="center">AI-based Flowmeter Systems | Smart City Developer</h3>
+</p>
+
 <h1 align="center">🇰🇷 안녕하세요! 장시영 (Jang Si-yeong) 입니다</h1>
 
 <p align="center">
@@ -53,7 +58,7 @@
 |:------------------------|:---------------------------------------------------------------|
 | 펌웨어 로컬라이제이션    | EdgeTX 한글화, 폰트 통합, Companion UI 한글 지원 |
 | 음성팩 개발              | 한국어 TTS 음성팩 제작 및 구조 최적화 PR 기여                     |
-| 테마 디자인              | TX16S용 한국적 UI 테마 2종 공식 등록 및 배포                      |
+| 테마 디자인              | TX16S용 한국적 UI 테마 3종 공식 등록 및 배포                      |
 | 자동화 및 최적화         | 폰트 빌드, 음성 검증 스크립트 자동화, 최적화 구조 수립            |
 
 ---
