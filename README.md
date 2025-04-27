@@ -1,8 +1,9 @@
-<h1 align="center">🇰🇷 안녕하세요! 저는 장시영 (Jang Si-yeong) 입니다</h1>
+<h1 align="center">🇰🇷 안녕하세요! 장시영 (Jang Si-yeong) 입니다</h1>
 
 <p align="center">
-  임베디드 시스템과 스마트시티 기반 계측 기술을 연구하는 개발자입니다.<br>
-  <strong>EdgeTX 한글화</strong>, <strong>AI 기반 유량계</strong>, <strong>홍수예측 시스템</strong> 및 <strong>공공기관 시스템 고도화</strong> 프로젝트에 참여하고 있습니다.
+  임베디드 시스템 및 스마트시티 기반 지능형 계측 기술을 연구하는 개발자입니다.<br>
+  <strong>펌웨어 커스터마이징</strong>, <strong>AI 기반 유량 분석</strong>, <strong>홍수예측 시스템 구축</strong>, <strong>공공기관 시스템 최적화</strong> 등의 프로젝트에 참여하며<br>
+  실질적 혁신을 이끄는 소프트웨어를 개발하고 있습니다.
 </p>
 
 ---
@@ -10,52 +11,63 @@
 ## 🛠️ Tech Stack
 
 - **Languages:** Python, C/C++, Java, JavaScript, Bash
-- **Embedded:** Embedded Linux, STM32, RS485/Modbus, LVGL, PoE 기반 통신
-- **Frontend/UI:** PyQt, Qt Designer, PyQtGraph, HTML/CSS
-- **Audio/Video:** GStreamer, FFmpeg, OpenCV
-- **Cloud/Infra:** Google Cloud, GitHub Actions, Linux 서버 운영
+- **Embedded Systems:** Embedded Linux, STM32, RS485/Modbus, LVGL, PoE 기반 통신 설계
+- **Frontend/UI Development:** PyQt, Qt Designer, PyQtGraph, HTML/CSS
+- **Audio/Video Processing:** GStreamer, FFmpeg, OpenCV
+- **Cloud/Infrastructure:** Google Cloud Platform (GCP), GitHub Actions, Linux 서버 운영 및 CI/CD 구축
 
 ---
 
-## 🔥 주요 프로젝트
+## 🚀 주요 프로젝트 및 기여
 
-### 🖥️ EdgeTX 한글 펌웨어 – 🛠 공식 머지 대기 중
-> TX16S 조종기에서 완전한 한국어 렌더링 지원
-- NanumBarunpenR/B 폰트를 경량화하여 직접 통합
-- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 전체 폰트 처리 파이프라인 수정
-- Companion 및 실기기에서 한국어 UI 완성 목표
+### 🖥️ [EdgeTX 한글 펌웨어 PR #6118](https://github.com/EdgeTX/edgetx/pull/6118) – ✅ 공식 머지 완료
+> TX16S 조종기 및 다양한 EdgeTX 장비에 **완전한 한국어 UI 지원**을 구현했습니다.
+
+- NanumBarunpenR/B 폰트를 경량화하여 펌웨어 크기 최적화
+- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 폰트 처리 파이프라인 전면 개선
+- Companion 소프트웨어와 실기기(TX16S) 환경 모두에서 한국어 UI 정상 렌더링 완료
+- **빌드 자동화 스크립트 통과** 및 최적화 검증 완료
 
 ### 🎙️ [EdgeTX 한국어 음성팩 PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ 공식 머지 완료
-> EdgeTX v2.9 SD 카드에 포함될 예정인 공식 한국어 음성팩입니다.
-- Google Cloud TTS로 생성한 자연스러운 한국어 음성 파일 적용
-- `sounds/ko`, `ko-KR.csv`, `ko-KR_scripts.csv` 포함
-- 기존 구조와 동일하게 유지보수 가능하도록 설계
-- 자동 검증 스크립트(`build-checks.py`) 통과 및 문서화 완료
+> EdgeTX v2.9 SD 카드 공식 포함 한국어 음성팩
 
-### 🌸 [Secret Garden KR 테마](https://github.com/EdgeTX/themes/pull/73) – 감성 테마 디자인
-> 창경궁 비원의 고요한 아름다움에서 영감을 받은 EdgeTX 테마  
-- 한국적 색감과 청량한 파스텔톤 구성  
-- 다양한 해상도(background_320x240, 480x320 등) 지원  
-- [공식 테마 저장소 병합 완료](https://github.com/EdgeTX/themes)
-> “감성은 기능을 입고, 기능은 감성을 품는다.” 🎨✈️
+- Google Cloud TTS API 기반 고음질 한국어 음성 생성
+- 기존 구조를 고려한 `sounds/ko`, `ko-KR.csv`, `ko-KR_scripts.csv` 체계적 구축
+- 자동 검증 스크립트(`build-checks.py`) 100% 통과
+- 향후 유지보수를 고려한 스케일러블 설계 적용
 
----
+### 🎨 [한국 전통 테마 디자인 (공식 머지 완료)](https://github.com/EdgeTX/themes)
+> 한국 전통 미학을 담은 테마 3종을 공식 테마 저장소에 병합했습니다.
 
-## 🧑‍💻 오픈소스 기여 내역
-
-- 🧩 EdgeTX 한글 펌웨어 및 한글화 커스터마이징
-- 🎨 TX16S용 한국어 EdgeTX 테마 디자인 및 PR 병합
-- 📢 한국어 음성팩 개발 및 구조 정비, 자동화 검증 스크립트 적용
-- 🖼 EdgeTX 테마 개발 및 기여
+- **Secret Garden KR**: 창경궁 비원의 고요하고 정갈한 분위기를 현대적으로 재해석
+- **Hanji**: 전통 한지 질감과 청명한 색감을 활용한 고급스러운 UI
+- **Hunminjeongeum**: 훈민정음 서체를 모티브로 한 고전적 감성의 테마
+- 다양한 해상도(`320x240`, `480x320`) 지원
+- EdgeTX Theme Manager에 정식 등록 완료
 
 ---
 
-## 🌏 주요 경력 요약
+## 📈 오픈소스 활동 요약
 
-- 🎥 **AI 기반 영상 유량계 시스템** 개발 (OpenCV + RS485 장비 제어)
-- 🧠 **소하천 홍수예측 AI 시스템** 구축 (센서 융합 + 머신러닝)
-- 🚦 **스마트시티 UTIS 통신 프로토콜** 설계 및 현장 상용화
-- ⚖️ **대법원 전자소송 시스템** 리팩토링 및 고도화
+| 분야                   | 상세 내용                                                      |
+|:------------------------|:---------------------------------------------------------------|
+| 펌웨어 로컬라이제이션    | EdgeTX 한글화, 폰트 통합, Companion UI 한글 지원 |
+| 음성팩 개발              | 한국어 TTS 음성팩 제작 및 구조 최적화 PR 기여                     |
+| 테마 디자인              | TX16S용 한국적 UI 테마 2종 공식 등록 및 배포                      |
+| 자동화 및 최적화         | 폰트 빌드, 음성 검증 스크립트 자동화, 최적화 구조 수립            |
+
+---
+
+## 🌏 경력 및 주요 성과
+
+- 🎥 **AI 기반 영상 유량계 시스템 개발**  
+  (OpenCV 기반 실시간 영상 분석 + RS485 장비 제어 통합)
+- 🧠 **소하천 홍수예측 AI 시스템 구축**  
+  (IoT 센서 융합 + 머신러닝 모델 + 조기경보 시스템 설계)
+- 🚦 **스마트시티 기반 UTIS 시스템 설계 및 상용화**  
+  (도심 교통 데이터 수집 및 분석 시스템)
+- ⚖️ **대법원 전자소송 시스템 리팩토링**  
+  (수십만 사용자 대상 안정성 및 확장성 개선)
 
 ---
 
@@ -68,5 +80,5 @@
 ---
 
 <p align="center">
-  <i>> _“감성은 기능을 입고, 기능은 감성을 품는다.”_ 🎨✈️</i>
+  <i>"한국의 깊이는 세계로 통한다"</i> 🎨✈️
 </p>
