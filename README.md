@@ -13,66 +13,75 @@
 
 ---
 
+<h1 align="center">🇺🇸 Hello! I'm Siyeong Jang</h1>
+
+<p align="center">
+  I am a developer specializing in Embedded Systems and Smart City-based intelligent metering technologies.<br>
+  I have contributed to projects including <strong>firmware customization</strong>, <strong>AI-based flowmeter development</strong>, <strong>flood prediction systems</strong>, and <strong>public sector system optimization</strong>, aiming to create impactful software solutions.
+</p>
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Languages:** Python, C/C++, Java, JavaScript, Bash
-- **Embedded Systems:** Embedded Linux, STM32, RS485/Modbus, LVGL, PoE 기반 통신 설계
+- **Embedded Systems:** Embedded Linux, STM32, RS485/Modbus, LVGL, PoE-based communication
 - **Frontend/UI Development:** PyQt, Qt Designer, PyQtGraph, HTML/CSS
 - **Audio/Video Processing:** GStreamer, FFmpeg, OpenCV
-- **Cloud/Infrastructure:** Google Cloud Platform (GCP), GitHub Actions, Linux 서버 운영 및 CI/CD 구축
+- **Cloud/Infrastructure:** Google Cloud Platform (GCP), GitHub Actions, Linux server operation and CI/CD setup
 
 ---
 
-## 🚀 주요 프로젝트 및 기여
+## 🚀 주요 프로젝트 및 기여 (Projects and Contributions)
 
-### 🖥️ [EdgeTX 한글 펌웨어 PR #6118](https://github.com/EdgeTX/edgetx/pull/6118) – ✅ 공식 머지 완료
-> TX16S 조종기 및 다양한 EdgeTX 장비에 **완전한 한국어 UI 지원**을 구현했습니다.
+### 🖥️ [EdgeTX 한글 펌웨어 PR #6118](https://github.com/EdgeTX/edgetx/pull/6118) – ✅ Merged
+> Provided full Korean UI support for TX16S transmitters and various EdgeTX devices.
 
-- NanumBarunpenR/B 폰트를 경량화하여 펌웨어 크기 최적화
-- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 폰트 처리 파이프라인 전면 개선
-- Companion 소프트웨어와 실기기(TX16S) 환경 모두에서 한국어 UI 정상 렌더링 완료
-- **빌드 자동화 스크립트 통과** 및 최적화 검증 완료
+- Integrated lightweight NanumBarunpenR/B fonts optimized for firmware
+- Enhanced the font processing pipeline (`fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h`)
+- Completed Korean UI rendering validation on Companion software and real TX16S devices
+- Successfully passed automated build verification and optimization checks
 
-### 🎙️ [EdgeTX 한국어 음성팩 PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ 공식 머지 완료
-> EdgeTX v2.9 SD 카드 공식 포함 한국어 음성팩
+### 🎙️ [EdgeTX Korean Voice Pack PR #143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ Merged
+> Official Korean voice pack included in EdgeTX v2.9 SD card.
 
-- Google Cloud TTS API 기반 고음질 한국어 음성 생성
-- 기존 구조를 고려한 `sounds/ko`, `ko-KR.csv`, `ko-KR_scripts.csv` 체계적 구축
-- 자동 검증 스크립트(`build-checks.py`) 100% 통과
-- 향후 유지보수를 고려한 스케일러블 설계 적용
+- Created natural Korean voices using Google Cloud TTS API
+- Built structured `sounds/ko`, `ko-KR.csv`, and `ko-KR_scripts.csv`
+- Passed `build-checks.py` validation with full compatibility
+- Designed for scalable future maintenance
 
-### 🎨 [한국 전통 테마 디자인 (공식 머지 완료)](https://github.com/EdgeTX/themes)
-> 한국 전통 미학을 담은 테마 3종을 공식 테마 저장소에 병합했습니다.
+### 🎨 [Traditional Korean UI Themes (Merged)](https://github.com/EdgeTX/themes)
+> Contributed three themes inspired by Korean aesthetics to the official repository.
 
-- **Secret Garden KR**: 창경궁 비원의 고요하고 정갈한 분위기를 현대적으로 재해석
-- **Hanji**: 전통 한지 질감과 청명한 색감을 활용한 고급스러운 UI
-- **Hunminjeongeum**: 훈민정음 서체를 모티브로 한 고전적 감성의 테마
-- 다양한 해상도(`320x240`, `480x320`) 지원
-- EdgeTX Theme Manager에 정식 등록 완료
-
----
-
-## 📈 오픈소스 활동 요약
-
-| 분야                   | 상세 내용                                                      |
-|:------------------------|:---------------------------------------------------------------|
-| 펌웨어 로컬라이제이션    | EdgeTX 한글화, 폰트 통합, Companion UI 한글 지원 |
-| 음성팩 개발              | 한국어 TTS 음성팩 제작 및 구조 최적화 PR 기여                     |
-| 테마 디자인              | TX16S용 한국적 UI 테마 3종 공식 등록 및 배포                      |
-| 자동화 및 최적화         | 폰트 빌드, 음성 검증 스크립트 자동화, 최적화 구조 수립            |
+- **Secret Garden KR**: A serene reimagining of the Changgyeonggung Secret Garden
+- **Hanji**: A premium UI design featuring traditional Hanji paper textures
+- **Hunminjeongeum**: A theme evoking the beauty of ancient Korean script
+- Supports multiple resolutions (`320x240`, `480x320`)
+- Officially registered in EdgeTX Theme Manager
 
 ---
 
-## 🌏 경력 및 주요 성과
+## 📈 오픈소스 활동 요약 (Open Source Activity Summary)
 
-- 🎥 **AI 기반 영상 유량계 시스템 개발**  
-  (OpenCV 기반 실시간 영상 분석 + RS485 장비 제어 통합)
-- 🧠 **소하천 홍수예측 AI 시스템 구축**  
-  (IoT 센서 융합 + 머신러닝 모델 + 조기경보 시스템 설계)
-- 🚦 **스마트시티 기반 UTIS 시스템 설계 및 상용화**  
-  (도심 교통 데이터 수집 및 분석 시스템)
-- ⚖️ **대법원 전자소송 시스템 리팩토링**  
-  (수십만 사용자 대상 안정성 및 확장성 개선)
+| 분야 (Area)                | 상세 내용 (Details)                                           |
+|:----------------------------|:-------------------------------------------------------------|
+| 펌웨어 로컬라이제이션        | Korean localization, font integration, Companion UI Korean support |
+| 음성팩 개발                  | Korean TTS voice pack creation and optimization PR            |
+| 테마 디자인                  | Korean-inspired UI themes officially merged and distributed   |
+| 자동화 및 최적화             | Automated font building, voice validation scripts, structural optimization |
+
+---
+
+## 🌏 경력 및 주요 성과 (Career Highlights)
+
+- 🎥 **AI-based Video Flowmeter System Development**  
+  (Real-time video analysis using OpenCV + RS485 device control integration)
+- 🧠 **Small River Flood Prediction AI System Construction**  
+  (Sensor fusion + machine learning + early warning system design)
+- 🚦 **Smart City UTIS System Development and Commercialization**  
+  (Urban traffic data collection and analysis system design)
+- ⚖️ **Supreme Court e-Litigation System Refactoring**  
+  (Improved scalability and stability for tens of thousands of users)
 
 ---
 
@@ -80,7 +89,7 @@
 
 - 🐙 GitHub: [@siyeongjang](https://github.com/siyeongjang)
 - 📧 Email: `siyeongjang@gmail.com`
-- ✍️ 블로그: (준비 중입니다)
+- ✍️ Blog: (Coming soon)
 
 ---
 
