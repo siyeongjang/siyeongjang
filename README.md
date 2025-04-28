@@ -122,7 +122,3 @@
 - ✍️ Blog: (Coming soon)
 
 ---
-
-<p align="center">
-  <i>"한국의 아름다움을 세계로"</i> 🎨✈️
-</p>
