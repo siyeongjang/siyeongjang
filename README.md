@@ -27,16 +27,24 @@
 TX16S 조종기 및 다양한 EdgeTX 장비에 **완전한 한국어 UI 지원**을 구현했습니다.
 
 - NanumBarunpenR/B 폰트를 경량화하여 펌웨어 최적화  
-- `fonts.cpp`, `make_fonts.sh`, `lv_font_conv`, `ko.h` 등 폰트 처리 파이프라인 전면 개선  
+- fonts.cpp, make_fonts.sh, lv_font_conv, ko.h 등 폰트 처리 파이프라인 전면 개선  
 - Companion 및 실기기(TX16S) 환경에서 한국어 UI 렌더링 완성  
 - 빌드 자동화 스크립트 통과 및 최적화 검증 완료  
+
+### 📘 EdgeTX Companion 한글 번역 PR [#6220](https://github.com/EdgeTX/edgetx/pull/6220) – ✅ 머지 완료  
+EdgeTX Companion UI에 **한국어 언어팩을 공식 등록**했습니다.
+
+- 기존 영어 `.ts`를 기반으로 생성된 Korean 항목에 완전한 한글 번역 적용
+- 전체 메뉴 및 설정 항목에 자연스러운 한국어 표현 제공
+- 2.11.0 버전부터 `View > Language > 한국어` 메뉴로 활성화 가능
+- 리뷰 피드백을 반영한 최종 번역 품질 개선 및 반영 완료
 
 ### 🎙️ EdgeTX 한국어 음성팩 PR [#143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ 머지 완료  
 EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 개발했습니다.
 
 - Google Cloud TTS API 기반 자연스러운 한국어 음성 생성  
-- `sounds/ko`, `ko-KR.csv`, `ko-KR_scripts.csv` 체계 구성  
-- `build-checks.py` 자동 검증 스크립트 통과  
+- sounds/ko, ko-KR.csv, ko-KR_scripts.csv 체계 구성  
+- build-checks.py 자동 검증 스크립트 통과  
 - 확장성과 유지보수를 고려한 구조 설계  
 
 ### 🎨 한국 전통 테마 디자인 – ✅ 공식 머지 완료 [링크](https://github.com/EdgeTX/themes)  
@@ -45,7 +53,7 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 - **Hanji**: 전통 한지 질감을 활용한 테마  
 - **Hunminjeongeum**: 훈민정음 서체 기반 고전 감성 테마  
 - **Korean Royal Garden**: 창경궁 후원의 정갈한 미학을 적용한 테마
-- 다양한 해상도(`320x240`, `480x320`) 지원  
+- 다양한 해상도(320x240, 480x320) 지원  
 - EdgeTX Theme Manager에 정식 등록 완료  
 
 ---
@@ -77,7 +85,7 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 ## 📫 연락처
 
 - 🐙 GitHub: [@siyeongjang](https://github.com/siyeongjang)  
-- 📧 Email: `siyeongjang@gmail.com`  
+- 📧 Email: siyeongjang@gmail.com  
 - ✍️ Blog: (Coming soon)
 
 ---
