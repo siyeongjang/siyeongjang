@@ -23,21 +23,17 @@
 
 ## 🚀 주요 프로젝트 및 기여
 
-### 🖥️ EdgeTX 한글 펌웨어 PR [#6118](https://github.com/EdgeTX/edgetx/pull/6118) – ✅ 머지 완료  
+### 🖥️ EdgeTX 한글 펌웨어 PR [#6118](https://github.com/EdgeTX/edgetx/pull/6118), [#6220](https://github.com/EdgeTX/edgetx/pull/6220) – ✅ 머지 완료  
 TX16S 조종기 및 다양한 EdgeTX 장비에 **완전한 한국어 UI 지원**을 구현했습니다.
 
 - NanumBarunpenR/B 폰트를 경량화하여 펌웨어 최적화  
 - fonts.cpp, make_fonts.sh, lv_font_conv, ko.h 등 폰트 처리 파이프라인 전면 개선  
-- Companion 및 실기기(TX16S) 환경에서 한국어 UI 렌더링 완성  
-- 빌드 자동화 스크립트 통과 및 최적화 검증 완료  
-
-### 📘 EdgeTX Companion 한글 번역 PR [#6220](https://github.com/EdgeTX/edgetx/pull/6220) – ✅ 머지 완료  
-EdgeTX Companion UI에 **한국어 언어팩을 공식 등록**했습니다.
-
-- 기존 영어 `.ts`를 기반으로 생성된 Korean 항목에 완전한 한글 번역 적용
+- Companion에 기존 영어 `.ts`를 기반으로 생성된 Korean 항목에 완전한 한글 번역 적용 
 - 전체 메뉴 및 설정 항목에 자연스러운 한국어 표현 제공
-- 2.11.0 버전부터 `View > Language > 한국어` 메뉴로 활성화 가능
+- 2.11.1 버전부터 `View > Language > 한국어` 메뉴로 활성화 가능
+- 실기기(TX16S) 환경에서 한국어 UI 렌더링 완성  
 - 리뷰 피드백을 반영한 최종 번역 품질 개선 및 반영 완료
+- 빌드 자동화 스크립트 통과 및 최적화 검증 완료  
 
 ### 🎙️ EdgeTX 한국어 음성팩 PR [#143](https://github.com/EdgeTX/edgetx-sdcard-sounds/pull/143) – ✅ 머지 완료  
 EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 개발했습니다.
