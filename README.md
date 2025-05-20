@@ -81,7 +81,7 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 ## 📫 연락처
 
 - 🐙 GitHub: [@siyeongjang](https://github.com/siyeongjang)  
-- 📧 Email: siyeongjang@gmail.com  
+- 📧 Email: siyeongj08@gmail.com  
 - ✍️ Blog: (Coming soon)
 
 ---
