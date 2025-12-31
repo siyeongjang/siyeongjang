@@ -51,6 +51,9 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 - **Korean Royal Garden**: 창경궁 후원의 정갈한 미학을 적용한 테마
 - 다양한 해상도(320x240, 480x320) 지원  
 - EdgeTX Theme Manager에 정식 등록 완료  
+<img width="748" height="193" alt="image" src="https://github.com/user-attachments/assets/5f6a178b-4db5-42a7-9299-1b904fdb50f2" />
+<img width="754" height="188" alt="image" src="https://github.com/user-attachments/assets/eebd3b25-4a9b-45d2-9704-19237810064e" />
+<img width="743" height="189" alt="image" src="https://github.com/user-attachments/assets/7acbe428-632b-4e9c-a006-198acb04c506" />
 
 ---
 <img width="1073" height="615" alt="image" src="https://github.com/user-attachments/assets/654ff799-1035-4bf1-9644-cf1b84099af3" />
