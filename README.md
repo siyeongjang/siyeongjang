@@ -53,7 +53,37 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 - EdgeTX Theme Manager에 정식 등록 완료  
 
 ---
+<img width="132" height="149" alt="4" src="https://github.com/user-attachments/assets/b03dcd6e-0faf-41e7-9aaf-da684d4ecb20" />
+<img width="1080" height="2400" alt="3" src="https://github.com/user-attachments/assets/449f11c1-053d-4a8f-bf44-c38aa93910e8" />
+<img width="1080" height="2400" alt="2" src="https://github.com/user-attachments/assets/e8165ffb-ca2b-4aae-a485-b53d2433e9d0" />
+<img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/06d7a300-9760-40e5-86ad-6e526adf4226" />
 
+### 🧠 기억 상기 앱 (개인 프로젝트) – *현주메모*
+
+아내의 잦은 건망증을 계기로,  
+**“기억을 요구하지 않고 자동으로 상기시켜주는 앱”**을 직접 기획·개발했습니다.
+
+메모를 확인하라고 요구하는 대신,  
+**스마트폰을 여는 순간 짧게 노출되고 빠르게 사라지는 UX**를 통해  
+자연스럽게 행동을 유도하는 것을 목표로 했습니다.
+
+**핵심 특징**
+- 스마트폰 **화면 활성화 시 자동 노출**
+- 0.1~2초 사이의 **짧은 노출 후 자동 사라짐**
+- 사용자의 인지 부담을 최소화한 리마인드 방식
+- “기억하라”가 아닌 **“잊기 어렵게 만드는 구조”**
+
+**주요 기능**
+- 노출 시간 및 빈도 사용자 설정  
+- 텍스트 + 이미지 기반 메모 항목 관리  
+- 항목별 배경색 커스터마이징을 통한 시각적 기억 강화  
+- 즉시 추가 가능한 경량 입력 UI  
+
+> 기술보다 UX 타이밍과 사용자 행동 변화를 우선한 프로젝트로,  
+> 일상의 문제를 구조적으로 해결하는 접근을 경험했습니다.
+
+
+---
 ## 📈 오픈소스 활동 요약
 
 | 분야                           | 상세 내용                                                      |
