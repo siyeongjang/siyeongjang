@@ -56,10 +56,8 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 <img width="743" height="189" alt="image" src="https://github.com/user-attachments/assets/7acbe428-632b-4e9c-a006-198acb04c506" />
 
 ---
-<img width="1073" height="615" alt="image" src="https://github.com/user-attachments/assets/654ff799-1035-4bf1-9644-cf1b84099af3" />
-
-
 ### 🧠 *현주메모* (기억 상기 앱)
+<img width="1073" height="615" alt="image" src="https://github.com/user-attachments/assets/654ff799-1035-4bf1-9644-cf1b84099af3" />
 
 아내의 잦은 건망증을 계기로,  
 **“기억을 요구하지 않고 자동으로 상기시켜주는 앱”**을 직접 기획·개발했습니다.
