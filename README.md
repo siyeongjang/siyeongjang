@@ -53,10 +53,8 @@ EdgeTX v2.9 SD 카드에 공식 포함될 **고음질 한국어 음성팩**을 �
 - EdgeTX Theme Manager에 정식 등록 완료  
 
 ---
-<img width="132" height="149" alt="4" src="https://github.com/user-attachments/assets/b03dcd6e-0faf-41e7-9aaf-da684d4ecb20" />
-<img width="1080" height="2400" alt="3" src="https://github.com/user-attachments/assets/449f11c1-053d-4a8f-bf44-c38aa93910e8" />
-<img width="1080" height="2400" alt="2" src="https://github.com/user-attachments/assets/e8165ffb-ca2b-4aae-a485-b53d2433e9d0" />
-<img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/06d7a300-9760-40e5-86ad-6e526adf4226" />
+<img width="1073" height="615" alt="image" src="https://github.com/user-attachments/assets/654ff799-1035-4bf1-9644-cf1b84099af3" />
+
 
 ### 🧠 기억 상기 앱 (개인 프로젝트) – *현주메모*
 
